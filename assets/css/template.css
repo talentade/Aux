@@ -756,6 +756,26 @@ input {
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 991px) {
+    
+    .linklist-left ul, .linklist-right ul {
+        padding: 0 15% !important;
+    }
+
+    .linklist-left ul li, .linklist-right ul li {
+        min-width: 120px !important;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+    
+    .linklist-left ul, .linklist-right ul {
+        padding: 0 !important;
+    }
+
+}
+
 @media only screen and (max-width: 580px) {
 
     .marquee {
@@ -3920,8 +3940,12 @@ blockquote {
     /*background: linear-gradient(#fbd613, #ffd700, #fbd613);*/
     background: url(../imgs/btn.png) repeat-x center #ffcc00;
     background-color: #363636;
-    width: 30.98%;
-    margin:  1%;
+    /*width: 30.98%;
+    margin:  1%;*/
+    /*min-width: 150px;*/
+    max-width: 250px;
+    width: 45%;
+    margin: 2%;
     border-right: 1px solid #ffffff;
     text-align: center;
     border: 1px solid #fff;

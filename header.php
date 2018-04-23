@@ -103,8 +103,8 @@
     		<div class="linklist-left">
         		<ul class="parent">
 					<li class=""><a href="index.php">Home</a></li>
-					<li class=""><a href="#">About Us</a></li>
-					<li class=""><a href="#">Hair Care</a></li>
+					<li class=""><a href="#">Hair & Wig Care</a></li>
+					<!-- <li class=""><a href="#">About Us</a></li> -->
 					<!-- <li class=""><a href="order.php">Our Service</a></li> -->
 				</ul>
 	        </div>
@@ -116,15 +116,15 @@
 			</a>
 		<div class="motto-design">
 		    <p>Amplify your beauty</p>
-		    <p class="p1">Build your skillset for wealth</p>
+		    <p class="p1">Build your skill set for wealth</p>
 		</div>
 		</div>
 		<div class="col-md-4 hidephone">
 			<!-- customers -->
 			<div class="linklist-right">
-				<div class="customer-bar">
+				<!-- <div class="customer-bar">
 				  <a href="#" id="customer_login_link"><i class="fa fa-plus"></i> Sign Up</a>
-				</div>
+				</div> -->
 				<div class="customer-bar">
 				  <a href="#" id="customer_login_link"><i class="fa fa-sign-in"></i> Login</a>
 				</div>
@@ -135,9 +135,8 @@
 					<a class="carter custom-font slide-menu slide-menu-cart" title="Your Cart"><i class="fa fa-shopping-cart fa-2x"></i> cart</a>
 				</div> -->
 				<ul class="parent">
-					<li><a href="/pages/real-hair-extensions">Shipping</a></li>
-					<li><a href="/pages/real-hair-extensions">Return</a></li>
-					<li><a href="contact.php">FAQ</a></li>
+					<li><a href="#">Shipping / Return</a></li>
+					<li><a href="contact.php">FAQs</a></li>
 				</ul>
 	        </div>
         </div>

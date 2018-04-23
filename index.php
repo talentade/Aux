@@ -1,5 +1,10 @@
 <?php require "header.php"; ?>
     <!-- BEGIN content_for_index -->
+
+<!--     Then that place where I edited and put *Amplify your beauty* and *Build your skill sets for wealth*
+
+Change it to *WIGS HAIR ACADEMY* with a small dots in between
+ -->
     <div class="row">
       <div class="col-lg-12">
         <marquee direction="left" class="marquee">
