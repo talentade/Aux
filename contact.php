@@ -1,4 +1,8 @@
-<?php require "header.php"; ?>
+<?php require "header.php";
+// http://flairhairacademy.com/
+// https://anneeliserealhair.com
+// http://localhost/Fireworks/2018/Web/$$/FashionShop/
+?>
 
 <div class="tsection homepage-section--rich-text-wrapper wow fadeIn homepage-collections-blocks">
     <div class="row heading">

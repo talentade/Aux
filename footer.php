@@ -37,24 +37,12 @@
 			          			Our Alumuni often testify to the quality of unique coaching methods deployed in each practical and interactive session: Each one was able to make a variety of wig styles.
 			          		</p>
 		          		</div>
-		  				<!-- 	<form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form">
-					            <input type="hidden" name="form_type" value="customer" />
-					            <input type="hidden" name="utf8" value="✓" />
-								<input type="hidden" name="contact[tags]" value="newsletter">
-							    <div id="newsletter-wrapper">
-							      <input id="newsletter_text" type="email" value="" placeholder="Enter email" name="contact[email]" class="input-group-field email" aria-label="translation missing: en.general.newsletter_form.newsletter_email" autocorrect="off" autocapitalize="off">
-							        <input id="newsletter_submit" type="submit" class="btn btn-default" name="subscribe" value="&#xf054;">
-							    </div>
-							</form> -->
 		    		</div>
 	    		</div>
 				<div class="bottom-footer">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-								<!-- <p>
-									<a href="/">Anne Elise Braids</a> | <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a> | <a href="http://www.wetheme.com" title="Designed by WeTheme">Designed by WeTheme</a>
-								</p> -->
 							</div>
 							<div class="col-md-6">
 								<div id="footer-payment-methods">

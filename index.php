@@ -1,10 +1,5 @@
 <?php require "header.php"; ?>
     <!-- BEGIN content_for_index -->
-
-<!--     Then that place where I edited and put *Amplify your beauty* and *Build your skill sets for wealth*
-
-Change it to *WIGS HAIR ACADEMY* with a small dots in between
- -->
     <div class="row">
       <div class="col-lg-12">
         <marquee direction="left" class="marquee">
@@ -47,111 +42,79 @@ Change it to *WIGS HAIR ACADEMY* with a small dots in between
     </div>
 
     <div class="title-bar custom-font">
-      <h2>OUR SERVICES</h2>
+      <h2>ABOUT US</h2>
     </div>
 
     <div id="temp-section-1516237567833" class="temp-section homepage-section--rich-text-wrapper wow fadeIn homepage-collections-blocks">
       <div class="row">
           <div class="blocker ab-block col-sm-2">
+            <span class="ab-block-no"><!-- 1 -->*</span>
             * Luxury Product<br />
             * High Quality<br />
             * Product Perfect<br />
           </div>
-          <div class="blocker ab-block col-sm-2"></div>
-          <div class="blocker ab-block col-sm-2"></div>
-          <div class="blocker ab-block col-sm-2"></div>
-          <div class="blocker ab-block col-sm-2"></div>
+          <div class="blocker ab-block col-sm-2">
+            <span class="ab-block-no"><!-- 2 -->*</span>
+          </div>
+          <div class="blocker ab-block col-sm-2">
+            <span class="ab-block-no"><!-- 3 -->*</span>
+          </div>
+          <div class="blocker ab-block col-sm-2">
+            <span class="ab-block-no"><!-- 4 -->*</span>
+          </div>
+          <div class="blocker ab-block col-sm-2">
+            <span class="ab-block-no"><!-- 5 -->*</span>
+          </div>
       </div>
     </div>
 
     <div class="title-bar custom-font">
       <h2>OUR SERVICES</h2>
       <h3>Keeping your beauty amplified</h3>
-      <hr>
+      <!-- <hr> -->
+      <h4>Whats on your mind?</h4>
     </div>
 
     <div id="temp-section-1516237567834" class="temp-section homepage-section--rich-text-wrapper wow fadeIn homepage-collections-blocks">
-          <div class="row">
-            <div class="blocker col-sm-3" style="margin-left: 4.155%;">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Adore Collection</a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog1.png" class="bh-img">
+      <div class="row service-collection">
+        <div class="col-md-12">
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <div class="blocker col-sm-4">
+              <span>The Adore Collection Braids</span>
+              <a href="order.php" class="bh-img">
                 <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog1.png">
               </a>
             </div>
-            <div class="blocker col-sm-3 col-sm-offset-1">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Dazzle Collection
-                </a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog3.png" class="bh-img">
+            <div class="blocker col-sm-4">
+            <span>Corn Rows. The Dazzle Collection</span>
+              <a href="order.php" class="bh-img">
+                <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog2.png">
+              </a>
+            </div>
+            <div class="blocker col-sm-4">
+              <span>More unique wigs. The Diva Collection</span>
+              <a href="order.php" class="bh-img">
                 <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog3.png">
               </a>
             </div>
-            <div class="blocker col-sm-3 col-sm-offset-1">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Diva Collection</a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog2.png" class="bh-img">
+          </div>
+          <div class="col-md-4">
+            <div class="blocker col-sm-6">
+              <span>Hair Wigs. The Celebrity Collections</span>
+              <a href="order.php" class="bh-img">
+                <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog1.png">
+              </a>
+            </div>
+            <div class="blocker col-sm-6">
+              <span>Extension Accuracy. The Image Offers</span>
+              <a href="order.php" class="bh-img">
                 <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog2.png">
               </a>
             </div>
           </div>
-
-          <div class="row">
-            <div class="blocker col-sm-3" style="margin-left: 4.155%;">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Celebrity Collections</a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog2.png" class="bh-img">
-                <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog2.png">
-              </a>
-            </div>
-            <div class="blocker col-sm-3 col-sm-offset-1">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Sweethearts Collections
-                </a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog3.png" class="bh-img">
-                <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog3.png">
-              </a>
-            </div>
-            <div class="blocker col-sm-3 col-sm-offset-1">
-              <h4 style="text-align: center" class="vc_custom_heading">
-                <a href="http://auxanoroyale.com/everyday-fab-hairstyles/" title="Everyday FAB Hairstyles">The Image Offers</a>
-              </h4>
-              <a href="https://auxanoroyale.com/wp-content/uploads/2014/11/blog1.png" class="bh-img">
-                <img class="" src="https://auxanoroyale.com/wp-content/uploads/2014/11/blog1.png">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="row">
-            <div class="blocker col-md-6">
-              <a href="https://anneeliserealhair.com/collections/real-hair-extensions">
-                <img class="" src="//cdn.shopify.com/s/files/1/1868/4093/files/block4_1024x1024.jpg?v=1516237624">
-              </a>
-            </div>
-            <div class="blocker col-md-6">
-              <a href="https://anneeliserealhair.com/collections/frontals-and-closures">
-                <img class="" src="//cdn.shopify.com/s/files/1/1868/4093/files/frontal_closures_card-1_1024x1024.jpg?v=1517866389">
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="blocker col-md-6">
-              <a href="https://anneeliserealhair.com/collections/frontpage">
-                <img class="" src="//cdn.shopify.com/s/files/1/1868/4093/files/block1_1024x1024.jpg?v=1516237597">
-              </a>
-            </div>
-            <div class="blocker col-md-6">
-              <a href="https://anneeliserealhair.com/collections/human-hair-wigs">
-                <img class="" src="//cdn.shopify.com/s/files/1/1868/4093/files/real_hair_wigs_card-2_1024x1024.jpg?v=1517866413">
-              </a>
-            </div>
-          </div> -->
+        </div>
+      </div>
    	</div>
 
 	<div id="temp-section-1492201471668" class="temp-section homepage-section--text-and-image-wrapper wow fadeIn">

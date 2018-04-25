@@ -1,7 +1,6 @@
 <?php require "header.php"; ?>
 <!-- http://flairhairacademy.com -->
 
-<div class="container">
 <div id="shopify-section-product-template-10" class="shopify-section">
 
 <div class="row" id="product-box" data-section-id="product-template-10">
@@ -145,7 +144,7 @@
   
 	<div class="col-md-5">
 		<section class="entry-content product-description-main-wrapper">
-			<h1 class="custom-font product-description-header">'Patra' Faux Locs Unit</h1>
+			<h1 class="custom-font product-description-header">[HAIR TYPE]</h1>
 				<form action="/cart/add" method="post" id="add-to-cart-form"><div class="bold_options bold_options_loaded"></div>
                           
 
@@ -250,7 +249,7 @@
                 <div class="epo-option">
                   
                         <label for="epo-option-0" class="epo-required">Colour</label>
-                        <select data-epo-price="" id="epo-option-0" data-epo-name="Colour" name="properties[epo-option-0]" class="epo-option-0">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-0" data-epo-name="Colour" name="properties[epo-option-0]" class="epo-option-0">
                           <option value="-1">-- Select --</option> 
                           
                             <option data-epo-price="" value="1">1 </option>
@@ -287,7 +286,7 @@
                   
                   
                         <label for="epo-option-1" class="epo-required">Loc size</label>
-                        <select data-epo-price="" id="epo-option-1" data-epo-name="Loc size" name="properties[epo-option-1]" class="epo-option-1">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-1" data-epo-name="Loc size" name="properties[epo-option-1]" class="epo-option-1">
                           <option value="-1">-- Select --</option> 
                           
                   		  
@@ -326,7 +325,7 @@
                   
                   
                         <label for="epo-option-2" class="epo-required">Cap size</label>
-                        <select data-epo-price="" id="epo-option-2" data-epo-name="Cap size" name="properties[epo-option-2]" class="epo-option-2">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-2" data-epo-name="Cap size" name="properties[epo-option-2]" class="epo-option-2">
                           <option value="-1">-- Select --</option> 
                           
                   		  
@@ -367,103 +366,25 @@
                         </select>
                     
                 </div>
-            
-                
-                
 
                 <div class="epo-option">
-                  
-                  
-                        <label for="epo-option-3" class="epo-required">Density</label>
-                        <select data-epo-price="" id="epo-option-3" data-epo-name="Density" name="properties[epo-option-3]" class="epo-option-3">
-                          <option value="-1">-- Select --</option> 
-                          
-                  		  
-                  		  
-                  		  
-                  		  
-                          
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="" value="Standard">Standard </option>
-                        
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="" value="Full">Full </option>
-                        
-                        </select>
-                    
+                    <label for="epo-option-3" class="epo-required">Density</label>
+                    <select style="width: 250px;" data-epo-price="" id="epo-option-3" data-epo-name="Density" name="properties[epo-option-3]" class="epo-option-3">
+                    	<option value="-1">-- Select --</option>
+                        <option data-epo-price="" value="Standard">Standard </option>
+                        <option data-epo-price="" value="Full">Full </option>
+                    </select>
                 </div>
-            
-                
-                
 
                 <div class="epo-option">
-                  
-                  
-                        <label for="epo-option-4" class="epo-required">Frontal Customization</label>
-                        <select data-epo-price="" id="epo-option-4" data-epo-name="Frontal Customization" name="properties[epo-option-4]" class="epo-option-4">
-                          <option value="-1">-- Select --</option> 
-                          
-                  		  
-                  		  
-                  		  
-                  		  
-                          
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="$10.00" value="Hairline customization (plucking)">Hairline customization (plucking) ($10.00)</option>
-                        
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="$10.00" value="Bleached Knots">Bleached Knots ($10.00)</option>
-                        
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="$20.00" value="Bleached Knots &amp; Plucking">Bleached Knots &amp; Plucking ($20.00)</option>
-                        
-                            
-                  			
-                          	
-                            
-                          	
-                          
-                          	
-                          
-                            <option data-epo-price="" value="N/A">N/A </option>
-                        
-                        </select>
-                    
+                    <label for="epo-option-3" class="epo-required">Frontal Customization</label>
+                    <select style="width: 250px;" data-epo-price="" id="epo-option-3" data-epo-name="Frontal Customization" name="properties[epo-option-3]" class="epo-option-3">
+                      <option value="-1">-- Select --</option>
+                        <option data-epo-price="$10.00" value="Hairline customization (plucking)">Hairline customization (plucking) ($10.00)</option>
+                        <option data-epo-price="$10.00" value="Bleached Knots">Bleached Knots ($10.00)</option>
+                        <option data-epo-price="$20.00" value="Bleached Knots &amp; Plucking">Bleached Knots &amp; Plucking ($20.00)</option>
+                    	<option data-epo-price="" value="N/A">N/A </option>
+                    </select>
                 </div>
             
                 
@@ -473,7 +394,7 @@
                   
                   
                         <label for="epo-option-5">Baby Hair</label>
-                        <select data-epo-price="" id="epo-option-5" data-epo-name="Baby Hair" name="properties[epo-option-5]" class="epo-option-5">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-5" data-epo-name="Baby Hair" name="properties[epo-option-5]" class="epo-option-5">
                           <option value="-1">-- Select --</option> 
                           
                   		  
@@ -522,7 +443,7 @@
                   
                   
                         <label for="epo-option-6" class="epo-required">Ends</label>
-                        <select data-epo-price="" id="epo-option-6" data-epo-name="Ends" name="properties[epo-option-6]" class="epo-option-6">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-6" data-epo-name="Ends" name="properties[epo-option-6]" class="epo-option-6">
                           <option value="-1">-- Select --</option> 
                           
                   		  
@@ -610,7 +531,7 @@
                   
                   
                         <label for="epo-option-8">Image/Video Pre-shipping</label>
-                        <select data-epo-price="" id="epo-option-8" data-epo-name="Image/Video Pre-shipping" name="properties[epo-option-8]" class="epo-option-8">
+                        <select style="width: 250px;" data-epo-price="" id="epo-option-8" data-epo-name="Image/Video Pre-shipping" name="properties[epo-option-8]" class="epo-option-8">
                           <option value="-1">-- Select --</option> 
                           
                   		  
@@ -1174,5 +1095,4 @@ var xsappinitfrontend = function(){
 <section class="betterrecs" data-product_ids="" data-shop="anneelisebraids.myshopify.com" data-product_id="9894461320" data-collection="422684616" data-collection_handle="frontpage" data-template="product.10" data-page_handle="" data-purpose="" style="overflow: auto; clear: both;">
 </section>
 
-</div>
 <?php require "footer.php"; ?>
