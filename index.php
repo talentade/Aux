@@ -141,10 +141,18 @@
 	</div>
 
 	<div id="temp-section-1518123738368" class="temp-section homepage-section--rich-text-wrapper wow fadeIn newsletter-block" style="visibility:visible; animation-name: fadeIn;">
+        <div class="row">
+          <div class="col-md-12">
+            <p style="margin-top: ; font-size: 1.8em; color: #ef867b">
+            Don't miss out on our wholesale offers
+            </p>
+          </div>
+        </div>
 			<div class="newsletter-home">
 			  <div class="row">
+          <p>Now you can start your own business or make your own $10,000</p>
 			    <h2>SUBSCRIBE HERE</h2>
-			    <p>Latest Updates, Cool Offers, Exciting Deals &amp; much more.</p>
+			    <!-- <p>Latest Updates, Cool Offers, Exciting Deals &amp; much more.</p> -->
 			  <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer">
 			  <input type="hidden" name="utf8" value="✓">
 			  <input type="hidden" name="contact[accepts_marketing]" value="true">
@@ -166,9 +174,6 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <p style="margin-top: 30px; font-size: 1.8em; margin-bottom: 0px;">
-            Don't miss out on our wholesale offers
-            </p>
           </div>
         </div>
 			</div>
