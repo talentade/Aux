@@ -103,19 +103,5 @@ jQuery(function() {
 		});
 	});
 </script>
-
-<script>
-    // Translations that will be used in javascript section handling
-    window.theme = {
-        strings: {
-            addToCart: "Add to Cart",
-            soldOut: "Sold Out",
-            unavailable: "Unavailable",
-            showMore: "translation missing: en.general.filters.show_more",
-            showLess: "translation missing: en.general.filters.show_less"
-        },
-        moneyFormat: "\u003cspan class=mw-price\u003e${{amount}}\u003c\/span\u003e"
-    };
-</script>
 </body>
 </html>

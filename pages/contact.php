@@ -1,4 +1,4 @@
-<?php require "header.php";
+<?php
 // http://flairhairacademy.com/
 // https://anneeliserealhair.com
 // http://localhost/Fireworks/2018/Web/$$/FashionShop/
@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center">
         <div id="contact-form">
-          <form name="form1" method="post" action="">
+          <form name="form1" method="post" action="countdown/addcontact">
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
@@ -76,5 +76,3 @@
 
     <div class="col-md-8 col-md-offset-2 text-center"><hr></div>
 </div>
-
-<?php require "footer.php"; ?>

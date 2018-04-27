@@ -1620,7 +1620,7 @@ ul#product-nav li ul li a {
     display: inline-block;
     margin: 0;
     background-color: #fff;
-    color: #ef867b;
+    color: #ffdc21;
     cursor: pointer;
     border-bottom: 2px solid #000;
     border-bottom: none;
@@ -1669,12 +1669,12 @@ ul#product-nav li ul li a {
 
 .title-bar h2:hover {
     color: #fff;
-    background-color: #fba2a2;
+    background-color: #ffdc21;
 }
 
 .title-bar h4 {
     text-decoration: underline;
-    color: #e67a6e;
+    color: gold;
 }
 
 .flexslider .slides img {
@@ -1704,7 +1704,7 @@ ul#product-nav li ul li a {
     cursor: pointer;
     font-size: 1.1em;
     position: absolute;
-    background: #fbb07a57;
+    background: #f7d8313b;
     display: inline-block;
     text-align: left;
     padding: 5px;
@@ -1765,7 +1765,7 @@ ul#product-nav li ul li a {
 }
 
 footer {
-    padding: 10px 0;
+    /*padding: 10px 0;*/
     text-align: center;
     margin-top: 30px;
 }
@@ -2212,6 +2212,12 @@ ul#sm-icons li {
 
 .blog-page--meta {
     margin-bottom: 100px
+}
+
+.contact-bar > div {
+    text-align: center;
+    margin-top: 1em;
+    color: #73683b;
 }
 
 .notification-bar {
@@ -2726,7 +2732,7 @@ input#purchase,button#purchase,a#purchase {
     margin-top: 20px;
     padding: 12px 30px;
     border-radius: 2em;
-    background: #ef867b;
+    background: #ffdc21;
     color: #ffffff
 }
 
@@ -3976,10 +3982,22 @@ blockquote {
     height: 30px !important
 }
 
-.linklist-left,.linklist-right {
+.linklist-left, .linklist-right {
     color: white;
     margin: 10px 0px;
     text-align:  center;
+}
+
+.linklist-left li, .linklist-right li {
+    padding: 0px !important;
+}
+
+.linklist-left li a,
+.linklist-right li a {
+    display: block;
+    /*top: -9px;*/
+    position: relative;
+    padding: 9px;
 }
 
 .linklist-left ul,.linklist-right ul {
@@ -4178,7 +4196,7 @@ blockquote {
     padding: 3px;
     padding-top: 5px;
     width: 2em;
-    color: #ef867b;
+    color: #ffdc21;
     font-weight: bold;
     font-size: 1em;
     border: 1px solid #DDD;
@@ -4402,6 +4420,81 @@ h1.product-description-header {
     font-size: 2.8em;
     font-weight: bold;
     font-family: 'montserrat',sans-serif
+}
+
+/*gold #e2a982*/
+
+.flexslider-caption {
+    z-index: 8;
+    white-space: nowrap;
+    visibility: inherit;
+    text-shadow: 1px 1px grey;
+    transition: none;
+    text-align: left;
+    border-width: 0px;
+    padding: 0px;
+    position: relative;
+    color: #fff;
+    /*color: #f9bf2c;*/
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 300%;
+    font-size: 5em;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 0;
+    /*margin-left: 5%;*/
+    display: inline-block;
+    -webkit-transition: 700ms ease-in all;
+    -moz-transition: 700ms ease-in all;
+    -o-transition: 700ms ease-in all;
+    transition: 700ms ease-in all;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+    transform: translateX(-50%);
+}
+
+.flexslider-caption-p {
+    opacity: 0;
+    color: #fff;
+    /*color: gold;*/
+    /*text-shadow: 1px 1px yellow;*/
+    font-size: 200%;
+    -webkit-transition: 500ms ease-in all;
+    -moz-transition: 500ms ease-in all;
+    -o-transition: 500ms ease-in all;
+    transition: 500ms ease-in all;
+    transform: translateY(30px);
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+li.flex-active-slide .flexslider-caption {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+li.flex-active-slide .flexslider-caption-p {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.flexslider-caption-container {
+    display: block;
+    width: 100%;
+    top: 4em;
+    text-align: center;
+    padding: 1em 3em;
+    overflow: hidden;
+    min-height: 50px;
+    position: absolute;
+    /*background-color: #e0b1461f;*/
 }
 
 .videoblock h4 {

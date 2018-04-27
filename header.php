@@ -25,12 +25,12 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" media="all" />			
 	<link href="//fonts.googleapis.com/css?family=Muli:300,300i,400,400i" rel="stylesheet" type="text/css" media="all" />
 	<link href="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/bold-options.css?2671293825280774775" rel="stylesheet" type="text/css" media="all" />
-	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/tabber.js?2671293825280774775" type="text/javascript"></script>
 	<link href="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/tabber.css?2671293825280774775" rel="stylesheet" type="text/css" media="all" />
+	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/tabber.js?2671293825280774775" type="text/javascript"></script>
 	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/jquery-1.11.0.min.js?2671293825280774775" type="text/javascript"></script>
 	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/plugins.js?2671293825280774775" type="text/javascript"></script>
-	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/custom.js?2671293825280774775" type="text/javascript"></script>
-	<script src="//cdn.shopify.com/s/files/1/1868/4093/t/18/assets/sections.js?2671293825280774775" type="text/javascript"></script>
+	<script src="assets/js/custom.js" type="text/javascript"></script>
+	<script src="assets/js/sections.js" type="text/javascript"></script>
 	<!-- IG:Auxanoroyalehair, FB:Auxanoroyalehairacademy -->
 </head>
 
@@ -74,14 +74,20 @@
 		<div id="temp-section-announcement-bar" class="temp-section">
 		<div class="container">
 		<div class="row">
-		<div class="notification-bar custom-font">
-	        <a href="#shipping-and-returns-policy" class="notification-bar__message">
-	          <p>IMPORTANT TO NOTE: SHIPPING TIMES INDICATE WHEN THE ORDER WOULD SHIP OUT, NOT ORDER DELIVERY! Click for more info...</p>
-	        </a>
-	        <span class="cf-after"></span>
+			<div class="notification-bar custom-font">
+		        <a href="#shipping-and-returns-policy" class="notification-bar__message">
+		          <p>IMPORTANT TO NOTE: SHIPPING TIMES INDICATE WHEN THE ORDER WOULD SHIP OUT, NOT ORDER DELIVERY! Click for more info...</p>
+		        </a>
+		        <!-- <span class="cf-after"></span> -->
+			</div>
 		</div>
+		<!-- <div class="row">
+			<div class="contact-bar custom-font col-md-12">
+			<div class="col-md-3">
+				<p>+2348167443081</p>
+			</div>
 		</div>
-		</div>
+		</div> -->
 		</div>
 
 		<div class="header-new">
@@ -102,10 +108,8 @@
 			</form>
     		<div class="linklist-left">
         		<ul class="parent">
-					<li class=""><a href="index.php">Home</a></li>
+					<li class=""><a href="home">Home</a></li>
 					<li class=""><a href="#">Hair & Wig Care</a></li>
-					<!-- <li class=""><a href="#">About Us</a></li> -->
-					<!-- <li class=""><a href="order.php">Our Service</a></li> -->
 				</ul>
 	        </div>
       	</div>
@@ -136,7 +140,7 @@
 				</div> -->
 				<ul class="parent">
 					<li><a href="#">Shipping / Return</a></li>
-					<li><a href="contact.php">FAQs</a></li>
+					<li><a href="faqs">FAQs</a></li>
 				</ul>
 	        </div>
         </div>
@@ -149,8 +153,8 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<ul class="breadcrumb-new">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="category.html">Category</a></li>
+							<li><a href="home">Home</a></li>
+							<li><a href="#">Category</a></li>
 						</ul>
 					</div>
 				</div>
@@ -171,7 +175,7 @@
 	    	</div>
 		    <div class="row header-categories">
 		      <div class="hair-categ blocks">
-		        <a href="https://anneeliserealhair.com/products/frontal-box-braids">
+		        <a href="#">
 		        Twists
 		        </a>
 		      </div>
@@ -181,17 +185,17 @@
 		        </a>
 		      </div>
 		      <div class="hair-categ blocks">
-		        <a href="https://anneeliserealhair.com/collections/frontpage/products/faux-locs-wig?variant=40618150024">
+		        <a href="#">
 		        Corn Rows
 		        </a>
 		      </div>
 		      <div class="hair-categ blocks">
-		        <a href="/pages/contact-us">
+		        <a href="#">
 		        Locs & Wax
 		        </a>
 		      </div>
 		      <div class="hair-categ blocks">
-		        <a href="/pages/contact-us">
+		        <a href="#">
 		        Hair Wig
 		        </a>
 		      </div>
@@ -219,13 +223,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="/pages/real-hair-extensions">Hair / Wig Care</a>
+					<a href="#">Hair / Wig Care</a>
 				</li>
 				<li>
-					<a href="/pages/contact-us">Contact Us </a>
+					<a href="#">Contact Us </a>
 				</li>
 				<li>
-					<a href="/pages/faqs">FAQs</a>
+					<a href="faqs">FAQs</a>
 				</li>
 				<li class="mobile-customer-link"><a href="/account/login" id="customer_login_link">Log in</a></li>
 				<li class="mobile-customer-link"><a href="/account/register" id="customer_register_link">Create Account</a></li>
@@ -239,13 +243,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="/collections/human-hair-wigs">Wigs</a>
+					<a href="#">Wigs</a>
 				</li>
 				<li>
-					<a href="/collections/frontpage">Braided and Loc Wigs</a>
+					<a href="#">Braided and Loc Wigs</a>
 				</li>
 				<li>
-					<a href="/collections/real-hair-extensions">Real Hair Extensions</a>
+					<a href="#">Real Hair Extensions</a>
 				</li>
 			</ul>
 			<ul class="mobile-menu mobile-menu-grandchild mobile-menu-hidden" id="mobile-menu--wigs">

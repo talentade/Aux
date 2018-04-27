@@ -1,6 +1,3 @@
-<?php require "header.php"; ?>
-<!-- http://flairhairacademy.com -->
-
 <div id="shopify-section-product-template-10" class="shopify-section">
 
 <div class="row" id="product-box" data-section-id="product-template-10">
@@ -1094,5 +1091,3 @@ var xsappinitfrontend = function(){
 </div>
 <section class="betterrecs" data-product_ids="" data-shop="anneelisebraids.myshopify.com" data-product_id="9894461320" data-collection="422684616" data-collection_handle="frontpage" data-template="product.10" data-page_handle="" data-purpose="" style="overflow: auto; clear: both;">
 </section>
-
-<?php require "footer.php"; ?>
